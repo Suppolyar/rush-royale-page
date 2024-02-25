@@ -1,9 +1,9 @@
 <template>
   <button
     @click="onBtnClick"
-    class="h-[135px] w-[356px] bg-btn bg-contain bg-center bg-no-repeat text-[40px] font-bold text-white"
+    class="bg-btn bg-contain bg-center bg-no-repeat p-8 pb-10"
   >
-    <div class="BtnText h-full pt-8">СКАЧАТЬ</div>
+    <div class="BtnText">СКАЧАТЬ</div>
   </button>
 </template>
 

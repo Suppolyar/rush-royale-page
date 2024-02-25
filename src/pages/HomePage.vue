@@ -2,17 +2,12 @@
   <div
     class="relative h-screen w-screen bg-rush-royale bg-cover bg-center bg-no-repeat"
   >
-    <img
-      :src="mageFire"
-      alt="mage fire"
-      class="absolute bottom-0 left-0 z-0 max-h-[70vh]"
-    />
     <div
-      class="relative z-10 flex h-full flex-col items-center justify-center gap-4 text-lg lg:gap-10"
+      class="flex h-full flex-col items-center justify-center py-20 text-lg 2xl:gap-10"
     >
       <img :src="imgUrl" alt="Rush Royale Logo" class="h-[269px] w-[277px]" />
 
-      <InfoBlock frame="union-frame">
+      <InfoBlock class="relative" frame="union-frame">
         Игра больше не публикуется на площадке. Если вы играли в проект ранее,
         перейдите на сайт разработчика и авторизуйтесь, чтобы сохранить своего
         персонажа
@@ -21,6 +16,11 @@
         Нажимая "Перейти" вы соглашаетесь с передачей ваших данных компании
         MY.GAMES B.V. и их обработкой согласно Политике конфиденциальности
         портала MY.GAMES
+        <img
+          :src="mageFire"
+          alt="mage fire"
+          class="absolute bottom-[-400px] left-[-500px] max-h-[70vh]"
+        />
       </InfoBlock>
       <BaseButton />
       <InfoBlock frame="frame">
