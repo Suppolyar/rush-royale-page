@@ -6,13 +6,15 @@
 
 <script setup>
 import { onMounted } from "vue";
+import { useI18n } from "vue-i18n";
 
+const { locale } = useI18n();
 const initLeela = () => {
   const GEMS = window.__GEMS || {};
   window.__GEMS = {
     ...GEMS,
     no_header: true,
-    lang: "en_US",
+    lang: locale.value,
     langs_available: [
       "en_US",
       "de_DE",
