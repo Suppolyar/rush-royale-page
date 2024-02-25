@@ -1,6 +1,3 @@
-Конечно, вот README.md файл в формате Markdown:
-
-```markdown
 # Rush Royale Page
 
 ## Описание
