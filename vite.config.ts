@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/rush-royale/",
+  base: "/rush-royale-page/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "/src"),
