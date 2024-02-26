@@ -34,11 +34,14 @@
 </template>
 
 <script setup lang="ts">
+import { useTitle } from "@vueuse/core";
 import BaseButton from "../components/BaseButton.vue";
 import InfoBlock from "../components/InfoBlock.vue";
 import imgUrl from "../assets/main-logo-rr.png";
 import mageFire from "../assets/mage-fire.png";
 import MyGamesLogo from "../assets/my-games-logo.vue";
+const title = useTitle();
+title.value = "Rush Royale";
 </script>
 
 <style scoped></style>
