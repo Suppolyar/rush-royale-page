@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "rush-royale": "url('./src/assets/rush-royale-bg.jpg')",
-        "union-frame": "url('./src/assets/union-frame.svg')",
-        frame: "url('./src/assets/frame.svg')",
-        btn: "url('./src/assets/btn-bg.png')",
+        "rush-royale": "url('@/assets/rush-royale-bg.jpg')",
+        "union-frame": "url('@/assets/union-frame.svg')",
+        frame: "url('@/assets/frame.svg')",
+        btn: "url('@/assets/btn-bg.png')",
       },
     },
   },
