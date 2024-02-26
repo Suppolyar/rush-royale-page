@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative h-screen w-screen bg-rush-royale bg-cover bg-center bg-no-repeat"
+    class="relative h-screen w-screen overflow-hidden bg-rush-royale bg-cover bg-center bg-no-repeat"
   >
     <div
       class="flex h-full flex-col items-center justify-center py-20 text-lg 2xl:gap-10"
