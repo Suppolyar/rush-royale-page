@@ -2,6 +2,7 @@
   <div
     class="relative h-screen w-screen overflow-hidden bg-rush-royale bg-cover bg-center bg-no-repeat"
   >
+    <MyGamesLogo class="absolute right-[80px] top-[80px]" />
     <div
       class="flex h-full flex-col items-center justify-center py-20 text-lg 2xl:gap-10"
     >
@@ -37,6 +38,7 @@ import BaseButton from "../components/BaseButton.vue";
 import InfoBlock from "../components/InfoBlock.vue";
 import imgUrl from "../assets/main-logo-rr.png";
 import mageFire from "../assets/mage-fire.png";
+import MyGamesLogo from "../assets/my-games-logo.vue";
 </script>
 
 <style scoped></style>
