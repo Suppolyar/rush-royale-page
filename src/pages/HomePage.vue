@@ -39,6 +39,7 @@ import InfoBlock from "../components/InfoBlock.vue";
 import imgUrl from "../assets/main-logo-rr.png";
 import mageFire from "../assets/mage-fire.png";
 import MyGamesLogo from "../assets/my-games-logo.vue";
+import BaseFooter from "../components/footer/BaseFooter.vue";
 </script>
 
 <style scoped></style>
