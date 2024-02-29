@@ -5,9 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "rush-royale": "url('@/assets/rush-royale-bg.jpg')",
-        "union-frame": "url('@/assets/union-frame.svg')",
-        frame: "url('@/assets/frame.svg')",
-        btn: "url('@/assets/btn-bg.png')",
+        "btn-bg": "url('@/assets/btn-bg.png')",
       },
     },
   },

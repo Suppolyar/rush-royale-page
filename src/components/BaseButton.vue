@@ -1,38 +1,30 @@
 <template>
-  <button
-    @click="onBtnClick"
-    class="bg-btn bg-contain bg-center bg-no-repeat p-8 pb-10"
+  <a
+    target="_blank"
+    href="https://store.my.games/app/5356"
+    class="CustomBtn bg-btn-bg bg-center bg-no-repeat px-24 py-10 uppercase transition duration-150 hover:scale-105"
   >
-    <div class="BtnText">СКАЧАТЬ</div>
-  </button>
+    <span> Перейти </span>
+  </a>
 </template>
 
 <script setup>
 defineOptions({
   name: "BaseButton",
 });
-
-const onBtnClick = () => {
-  window.__GEM.detectAndDownload(
-    "13.2013983",
-    "https://static.gc.my.games/HawkedLoader.exe",
-  );
-};
 </script>
 
-<style scoped>
-.BtnText {
-  color: #fff;
+<style lang="scss" scoped>
+.CustomBtn {
+  span {
+    color: transparent;
 
-  text-shadow: 0px 2px 0px #0e2e73;
-  -webkit-text-stroke-width: 2;
-  -webkit-text-stroke-color: #0e2e73;
-  font-family: Oswald;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.8px;
-  text-transform: uppercase;
+    font-size: 32.584px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.281px;
+    text-transform: uppercase;
+  }
 }
 </style>
