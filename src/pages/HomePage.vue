@@ -35,18 +35,6 @@
         </InfoBlock>
 
         <BaseButton class="mb-6" />
-
-        <InfoBlock size="medium" class="border-4 border-[#2C2525] font-[400]">
-          Скачивая MY.GAMES Launcher, вы соглашаетесь с передачей ваших данных
-          компании MY.GAMES B.V. и их обработкой согласно
-          <a
-            class="underline"
-            href="https://documentation.my.games/terms/mygames_privacy"
-            target="_blank"
-            >Политике конфиденциальности
-          </a>
-          портала MY.GAMES
-        </InfoBlock>
       </div>
     </div>
   </div>
